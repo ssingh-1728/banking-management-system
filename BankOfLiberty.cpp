@@ -9,14 +9,14 @@
 #include<fstream.h>
 
 void graphics();		//contains graphics command & the fn is called when graphics is used
-void menu_graphics();	//contains graphics command for menu
+void menu_graphics();		//contains graphics command for menu
 void first_page();		//this page is shown up as soon as user compiles the program
 void security();		//as the name suggest this fn is for security check page
 void save();
 void display();
 void m_page();			//MAIN PAGE i.e where all choice r present like delete a/c, add a/c, etc.
 void welcome();			//sub page contains info about software
-void display_name();	//display name of choices in main page
+void display_name();		//display name of choices in main page
 void remove(int&);		//removes graphics in main page when up & down arrow is pressed
 void file(char *,char *);	//comparision of username & password takes place
 void thankyou();		//Last page with little animation
